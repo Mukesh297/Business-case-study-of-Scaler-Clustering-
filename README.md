@@ -1,4 +1,5 @@
 # Business case study of Scaler Clustering 
+# Employee Segmentation Using Clustering | Scaler Academy Case Study
 
 # **About Scaler**
 Scaler is an online tech-versity offering intensive computer science & Data Science courses through live classes delivered by tech leaders and subject matter experts. The meticulously structured program enhances the skills of software professionals by offering a modern curriculum with exposure to the latest technologies. It is a product by InterviewBit.
@@ -9,6 +10,41 @@ As a data scientist at Scaler working with the analytics vertical, I have to foc
 
 Data provided contains the information for a segment of learners and tasked to cluster them on the basis of their job profile, company, and other features. Ideally, these clusters should have similar characteristics.
 
+
+## 📌 Objective
+Apply K-Means and Hierarchical Clustering to segment employee profiles from Scaler Academy based on CTC (Cost to Company) and years of experience, and derive actionable business insights.
+
+## 📊 Dataset
+- Source: Scaler Academy (internal/structured data)
+- Features Used: `CTC`, `Years of Experience`
+
+## 🔍 Methods
+- Manual clustering based on CTC brackets
+- K-Means clustering with elbow method
+- Hierarchical Clustering with dendrogram
+- Cluster interpretation and business insights
+
+## 📌 Key Results
+- Optimal clusters: 3 (validated through silhouette scores and dendrogram analysis)
+- **Cluster 0:** Low CTC across roles – opportunity for strategic hiring or training
+- **Cluster 1:** Middle-tier performers – candidates for upskilling
+- **Cluster 2:** High-value employees – strong performers with market-level salaries
+
+## 💡 Recommendations
+- Invest in **Cluster 0** to increase their contribution and tap a large market segment
+- Upskill **Cluster 1** to elevate them toward **Cluster 2**
+- Use insights for workforce planning, compensation analysis, and retention strategy
+
+## 📂 Structure
+- `data/`: Dataset (sanitized or sample if sensitive)
+- `notebooks/`: Jupyter notebooks for clustering
+- `outputs/`: Plots and cluster insights
+- `README.md`: Project overview
+
+## 🧠 Skills Used
+- Unsupervised Learning
+- Cluster Analysis
+- Business Strategy & Analytics
 
 # **Column Profiling**
 
